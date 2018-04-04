@@ -17,15 +17,15 @@ $(function(){
   // deploying the application to a live production environment, change to
   // https://backend-dot-<PROJECT_ID>.appspot.com as specified in the
   // backend's app.yaml file.
-  var backendHostUrl = '<your-backend-url>';
+  var backendHostUrl = 'backend-dot-firetestjv1234.appspot.com';
 
   // Initialize Firebase
   // TODO: Replace with your project's customized code snippet
   var config = {
-    apiKey: "<API_KEY>",
-    authDomain: "<PROJECT_ID>.firebaseapp.com",
-    databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
-    storageBucket: "<BUCKET>.appspot.com",
+    apiKey: "AIzaSyA-cTqr9TkhitQyE4WVhzLxkaJ0a2XdLf8",
+    authDomain: "firetestjv1234.firebaseapp.com",
+    databaseURL: "https://firetestjv1234.firebaseio.com",
+    storageBucket: "firetestjv1234.appspot.com",
   };
 
   // This is passed into the backend to authenticate the user.
@@ -75,10 +75,10 @@ $(function(){
       'signInSuccessUrl': '/',
       'signInOptions': [
         // Leave the lines as is for the providers you want to offer your users.
-        firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+        //firebase.auth.GoogleAuthProvider.PROVIDER_ID,
         firebase.auth.FacebookAuthProvider.PROVIDER_ID,
-        firebase.auth.TwitterAuthProvider.PROVIDER_ID,
-        firebase.auth.GithubAuthProvider.PROVIDER_ID,
+        //firebase.auth.TwitterAuthProvider.PROVIDER_ID,
+        //firebase.auth.GithubAuthProvider.PROVIDER_ID,
         firebase.auth.EmailAuthProvider.PROVIDER_ID
       ],
       // Terms of service url

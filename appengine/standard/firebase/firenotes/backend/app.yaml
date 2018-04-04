@@ -9,4 +9,4 @@ handlers:
 
 env_variables:
   # Replace with your Firebase project ID.
-  FIREBASE_PROJECT_ID: '<PROJECT_ID>'
+  FIREBASE_PROJECT_ID: 'firetestjv1234'
